@@ -1,0 +1,19 @@
+#!/bin/bash
+
+read -p "Enter a number: " NUM
+echo 
+if [ $NUM -gt 100 ]
+then 
+	echo "your entered a if loop"
+	echo
+	sleep 3
+	echo "Your number is greater than 100"
+	echo
+	date
+else 
+	echo "your number is not greater than 100"
+fi
+
+
+echo
+echo "script execution is completed"
